@@ -14,4 +14,4 @@ services:
       - node_modules:/home/node/app/node_modules
     command: yarn run dev
     environment:
-      URL_API: "http://localhost:3000"
+      - URL_API
