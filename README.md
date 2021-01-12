@@ -71,6 +71,7 @@ Set this values in the `.env` file at root folder before start the run-time:
 
 ## Usage  
   
+By default. the dev server runs in http://localhost:3333 
 
 ![Inital page](./docs/pic1.png)  
   
