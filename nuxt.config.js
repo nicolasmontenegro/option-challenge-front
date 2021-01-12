@@ -37,6 +37,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    // https://github.com/nuxt-community/style-resources-module
+    '@nuxtjs/style-resources',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -47,6 +49,11 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/fontawesome',
   ],
+
+  styleResources: {
+    // your settings here
+    sass: ['assets/css/utils/*.sass', 'bulma/sass/utilities/_all.sass'],
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
